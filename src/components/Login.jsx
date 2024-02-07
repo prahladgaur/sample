@@ -18,7 +18,7 @@ const Login = ()=> {
     e.preventDefault();
     setErrors(Validation({ email, password }));
     axios
-      .post("http://localhost:3000/auth/login", { email, password })
+      .post("https://mernappback-qhiy.onrender.com/auth/login", { email, password })
       .then((res) => {
         console.log(res)
         if(res.data.status){
