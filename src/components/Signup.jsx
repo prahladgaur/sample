@@ -16,7 +16,7 @@ function Signup() {
     e.preventDefault();
     setErrors(Validation({ username, email, password }));
     axios
-      .post("http://localhost:3000/auth/signup", { username, email, password })
+      .post("https://mernappback-qhiy.onrender.com/auth/signup", { username, email, password })
       .then((res) => {
         console.log(res)
         if(res.data.status){
