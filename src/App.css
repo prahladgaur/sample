@@ -1,0 +1,13 @@
+/* Navbar */
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  background-color: rgba(0, 255, 255, 0);
+  padding: 8px;
+  border-radius: 5px;
+}
+#btn:hover{
+  background-color: green;
+}
