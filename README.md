@@ -2,3 +2,4 @@
   <source src="[path-to-video.mp4](https://youtu.be/LtW7ISqHFS0?si=haVMFamEY7QgV0L6)" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/LtW7ISqHFS0?si=haVMFamEY7QgV0L6))
